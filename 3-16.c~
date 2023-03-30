@@ -1,0 +1,54 @@
+#include <stdio.h>
+
+void main()
+{
+        int a;
+        int result;
+        
+	printf("입력진수 결정 <1>10 <2>16 <3>8 : ");
+	scanf("%d", result);
+
+	result = ("%d", 1);
+	printf("값 입력 : ");
+        scanf("%d",a);
+
+	printf("10진수 ==> ");
+	result = a;
+	printf("%d \n", a);
+	printf("16진수 ==> ");
+	result = a;
+	printf("%x \n", a);
+	printf("8진수 ==> ");
+	result = a;
+	printf("%o \n", a);
+
+	result = ("%d", 2);
+	
+	printf("값 입력 : ");
+        scanf("%x",a);
+
+	printf("10진수 ==> ");
+	result = a;
+	printf("%d \n", a);
+	printf("16진수 ==> ");
+	result = a;
+	printf("%x \n", a);
+	printf("8진수 ==> ");
+	result = a;
+	printf("%o \n", a);
+
+	result = ("%d", 3);
+	
+	printf("값 입력 : ");
+        scanf("%o",a);
+
+	printf("10진수 ==> ");
+	result = a;
+	printf("%d \n", a);
+	printf("16진수 ==> ");
+	result = a;
+	printf("%x \n", a);
+	printf("8진수 ==> ");
+	result = a;
+	printf("%o \n", a);
+}
